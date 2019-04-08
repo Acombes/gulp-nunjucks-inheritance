@@ -24,9 +24,9 @@
   "homepage": "https://github.com/Acombes/gulp-nunjucks-inheritance#readme",
   "dependencies": {
     "event-stream": "^4.0.1",
+    "nunjucks-graph": "^1.0.0",
     "should": "^13.2.3",
-    "vinyl-fs": "^3.0.3",
-    "nunjucks-graph": "latest"
+    "vinyl-fs": "^3.0.3"
   },
   "devDependencies": {
     "chai": "^4.2.0",
