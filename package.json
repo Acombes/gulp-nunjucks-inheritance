@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Recompile only changed Nunjucks files and their dependencies (extended, included or imported)",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Acombes/gulp-nunjucks-inheritance.git"
@@ -25,5 +27,9 @@
     "should": "^13.2.3",
     "vinyl-fs": "^3.0.3",
     "nunjucks-graph": "latest"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.1"
   }
 }
