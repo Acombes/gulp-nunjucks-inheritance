@@ -1,6 +1,6 @@
 {
   "name": "gulp-nunjucks-inheritance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recompile only changed Nunjucks files and their dependencies (extended, included or imported)",
   "main": "index.js",
   "scripts": {
