@@ -1,0 +1,29 @@
+{
+  "name": "gulp-nunjucks-inheritance",
+  "version": "1.0.0",
+  "description": "Recompile only changed Nunjucks files and their dependencies (extended, included or imported)",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acombes/gulp-nunjucks-inheritance.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "nunjucks",
+    "nunjucks-graph",
+    "gulp-cached"
+  ],
+  "author": "Antoine COMBES",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Acombes/gulp-nunjucks-inheritance/issues"
+  },
+  "homepage": "https://github.com/Acombes/gulp-nunjucks-inheritance#readme",
+  "dependencies": {
+    "event-stream": "^4.0.1",
+    "should": "^13.2.3",
+    "vinyl-fs": "^3.0.3",
+    "nunjucks-graph": "latest"
+  }
+}
